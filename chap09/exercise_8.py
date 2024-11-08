@@ -62,7 +62,7 @@ def simOneHand():
         return True
 
 def simOneCard():
-    x = randrange(1, 13)
+    x = randrange(1, 14)               #Second parameter in randrange() is non-inclusive, so it should be 14 instead of 13
     if x == 11 or x == 12 or x == 13:
         x = 10
         return x
